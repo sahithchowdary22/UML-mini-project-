@@ -1,0 +1,93 @@
+.body{
+  background-color:rgb(243, 243, 243);
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: rgb(235, 235, 235);
+    border:1px solid #f6f6f6;
+    margin-bottom: 20px;
+}
+header h3{
+    align-items: center;
+    margin-left: 100px;
+}
+.logo img {
+    width: 100px; /* Set the width as needed */
+    /* Add any additional styling for your logo */
+}
+
+.header-buttons a {
+    text-decoration: none;
+    margin-left: 20px;
+    padding: 8px 15px;
+    border-radius: 5px;
+    color: #ffffff;
+    background-color:rgb(255, 156, 95);
+    transition: all 0.3s;
+}
+
+.header-buttons a:hover {
+    background-color: rgb(47, 137, 248);
+    color: #ffffff;
+}
+.cat-txt{
+    margin-left: 400px;
+    font-size: 50px;
+  }
+  .cat{
+   display: flex;
+   gap: 20px;
+   margin-top: 40px;
+   margin-left: 400px;
+   margin-right: 660px;
+  }
+  .cat1{
+    padding: 50px 40px;
+    background-color: #e38184;
+    border: black;
+    border-radius: 15px;
+  }
+  .cat1:hover img{
+    transition: 0.5s;
+    transform: scale(1.5);
+  }
+  .cat1 text{
+    text-shadow: 2px 2px #df5a5f;
+    font-weight: bolder;
+    margin-left: 15px;
+  }
+  .cat2{
+    padding: 50px 40px;
+    background-color: #eecc8c;
+    border: black;
+    border-radius: 10px;
+    box-shadow: black;
+  }
+  .cat2:hover img{
+    transition: 0.5s;
+    transform: scale(1.5);
+  }
+  .cat2 text{
+    text-shadow: 2px 2px #d8a342;
+    font-weight: bolder;
+    margin-left: 32px;
+  }
+  .cat3{
+    padding: 50px 40px;
+    background-color: #e3aadd;
+    border: black;
+    border-radius: 10px;
+    box-shadow: black;
+  }
+  .cat3:hover img{
+    transition: 0.5s;
+    transform: scale(1.5);
+  }
+  .cat3 text{
+    text-shadow: 2px 2px #c964c1;
+    font-weight: bolder;
+    margin-left: 5px;
+  }
